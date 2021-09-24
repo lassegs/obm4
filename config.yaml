@@ -1,8 +1,16 @@
 baseURL: "https://example.com"
-languageCode: "en-us"
+languageCode: "no-nb"
 title: "Hugo Novela"
 pygmentsstyle: 'monokai'
 metaDataFormat: yaml
+defaultContentLanguage: no
+languages:
+  no:
+    title: Oslo Barnemuseum
+    weight: 2
+  en:
+    title: Childrens Museum of Oslo
+    weight: 1
 
 # Theme settings
 # theme: novela
